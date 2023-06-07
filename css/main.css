@@ -100,6 +100,7 @@ body {
   font-size: 1em;
   height: 100%;
   color: #fff;
+  
 }
 
 header,
@@ -199,13 +200,16 @@ footer{
   line-height: 1.5em;
   font-size: 1rem;
   background-color: #222;
-  width: 30%;
+  /* width: 30%; */
   height: 200px;
   display: flex;
   justify-content: center;
   align-items: center;
   overflow: auto;
-  flex: 1 0 auto;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 0;
+
 
 }
 
