@@ -137,7 +137,8 @@ main {
   justify-content: flex-start;
   align-items: center;
   background-color: #222;
-  overflow: auto;  
+  overflow: auto;
+ 
 }
 
 
@@ -150,6 +151,7 @@ main{
     border-bottom-width: 1px;
     border-bottom-color: #fff;
     margin-bottom: 20px;
+    flex: 1 0 auto;
   
   }
 
@@ -177,6 +179,18 @@ footer{
     padding-right: 30px;
 }
 
+#div-3{
+
+    
+    padding-left: 30px;
+    
+}
+
+#div-1{
+
+    padding-right: 30px;
+}
+
 
 .flex-container {
   
@@ -185,6 +199,7 @@ footer{
   align-items: center;
   flex-flow: row wrap;
   justify-content: space-between;
+  
 }
 
 .flex-items {
@@ -198,6 +213,7 @@ footer{
   justify-content: center;
   align-items: center;
   overflow: auto;
+  flex: 1 0 auto;
 
 }
 
