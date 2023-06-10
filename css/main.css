@@ -192,8 +192,8 @@ footer{
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-flow: row wrap;
-  justify-content: space-between;
+  flex-flow: wrap;
+  justify-content: space-around;
   
   
 }
@@ -203,16 +203,16 @@ footer{
   line-height: 1.5em;
   font-size: 1rem;
   background-color: #222;
-  /* width: 30%; */
+  width: 20%; 
   min-height: 0;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-grow: 1;
-  flex-shrink: 1;
-  flex-basis: 0;
+  flex-shrink: 1;*/
+  
 
-
+  
 
 }
 
@@ -300,6 +300,7 @@ footer{
   #div-1,
   #div-2{
       /* set your flex value to 1 50% */
+    
   }
 
   #div-3 {
@@ -390,3 +391,22 @@ footer{
         page-break-after: avoid;
     }
 }
+
+@media screen  and (max-width:1200px){
+.flex-items{
+
+    width: 20%;
+
+}
+   
+}
+
+@media screen  and (max-width:600px){
+    .flex-items{
+    
+        width: 90%;
+    
+    }
+       
+    }
+    
