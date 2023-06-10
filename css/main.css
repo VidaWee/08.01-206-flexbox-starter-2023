@@ -411,26 +411,45 @@ footer{
         margin: 20px;
     }
 
+    #div-1{
+    
+        border: 0;
+        padding-left: 0;
+        padding-right: 0;
+        margin-top: 5px;
+        margin-left: 0;
+        margin-right: 0;
+    
+    }
+    
+
     #div-2{
 
        border: 0;
-       padding: auto;
-       
+       padding-bottom: 5px;
+       padding-right: 0;
+       padding-left: 0;
+       margin-left: 0;
+       margin-right: 0;
     }
     
     #div-3{
     
         
        border: 0;
-       padding: auto;
-        
+       padding-bottom: 5px;
+       padding-right: 0;
+       padding-left: 0;
+       margin-left: 0;
+       margin-right: 0;
     }
     
-    #div-1{
-    
-        border: 0;
-        padding: auto;
+  
+    main{
+
+        padding-bottom: 20px;
     }
-    
+
+
     }
     
